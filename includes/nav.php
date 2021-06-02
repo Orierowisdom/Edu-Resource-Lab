@@ -19,8 +19,14 @@
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="about.php">ABOUT</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="course_form.php">COURSE FORM</a>
+                <li class="nav-item course-form-link">
+                    <a class="nav-link active" aria-current="page" href="#">COURSE FORM</a>
+                    <div id="main-bgg" class="course-form-link-sub nav-bg px-4">
+                    <ul>
+                        <li><a class="nav-link active" aria-current="page" href="nce_course_form.php">NCE COURSE FORM</a></li>
+                        <li><a class="nav-link active" aria-current="page" href="course_form.php">DEGREE COURSE FORM</a></li>
+                    </ul>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="course-materials.php">COURSE

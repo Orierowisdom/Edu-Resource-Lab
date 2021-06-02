@@ -25,15 +25,11 @@
                     </div>
                     <form id="formId" class="reg-form" action="course_form.php" method="GET">
 
+                    <input required type="text" name="Newname" name="fullname"
+                            placeholder="Full Names (surname, lastname and middle name)" class="input-text">
                         <input required type="text" name="matric" placeholder="Matric Number" class="input-text">
                         <input required type="text" name="level" placeholder="Level" class="input-text">
-                        <input required type="text" name="Newname" name="fullname"
-                            placeholder="Full Names (surname, lastname and middle name)" class="input-text">
                         <input required type="text" name="dept" placeholder="Department" class="input-text">
-                        <input required type="text" name="course" placeholder="Course of study" class="input-text">
-                        <input required type="email" name="email" placeholder="Email address" class="input-text">
-                        <input required type="text" name="sex" placeholder="Sex" class="input-text">
-                        <input required type="tel" name="number" placeholder="Phone Number" class="input-text">
                         <input required type="text" name="semester" placeholder="Semester" class="input-text">
                         <input required type="text" name="session" placeholder="Session" class="input-text">
                     </form>
@@ -79,79 +75,31 @@
                     <div class="container">
                         <div class="container text-center p-3 t-head">
 
-                            <img class="img-fluid logo-size logo-l" src="./assets/images/FCET.png" alt="">
-                            <img class="img-fluid logo-size logo-r" src="./assets/images/uniben.png" alt="">
-                            <div class=" message-m">
-                                <h5 class="sl-font m-0 p-0">FEDERAL COLLEGE OF EDUCATION (TECHNICAL) AKOKA</h5>
-                                <h5 class="sl-font">IN AFFILIATION WITH THE UNIVERSITY OF BENIN</h5>
-                                <h6 class="sl-font mt-2 mb-1">FACULTY OF EDUCATION</h6>
-                                <h6 class="sl-font"><b>COURSE REGISTRATION FORM</b></h6>
+                            <img class="img-fluid logo-size logo-l mt-3" src="./assets/images/FCET.png" alt="">
+                            <div class=" message-m mt-3">
+                                <h5 class="sl-font mt-3 p-0">FEDERAL COLLEGE OF EDUCATION (TECHNICAL) AKOKA</h5>
+                                <h5 class="sl-font"><b>COURSE REGISTRATION FORM</b></h5>
+                                <h6 class="sl-font"><b class="size-d" id="dept"></b></h6>
+                                <h6 class="sl-font"><b class="size-n px-1" id="level">..................</b><b class="size-n" id="semester">........................</b> <b class="size-n" id="session">..................</b></h6>
                             </div>
                         </div>
                         <div class="info-section mx-3">
                             <div class="inputs">
-                                <div class="matr">
-                                    <h6 class="col-4">Matric
-                                        Number: <b class="size-f" id="matric">........</b>
-                                    </h6>
-                                    <h6 class="col-3">
-                                        Level: <b class="size-f" id="level">..................</b>
-                                    </h6>
-                                    <h6 class="col-3">
-                                        Session: <b class="size-f" id="session">..................</b>
-                                    </h6>
-                                    <h6 class="col-2">
-                                    </h6>
-                                </div>
-
-                                <div class="name-inputs">
+                            <div class="name-input">
                                     <h6>
                                         Name: <b class="size-f" id="namee">.....</b>
                                     </h6>
                                 </div>
-                                <h6>
-                                    Department: <b class="size-f"
-                                        id="dept">......................................................................................</b>
-                                </h6>
-
-                                <div class="row">
-                                    <h6 class="col-7">Course of
-                                        study: <b class="size-f" id="course">......................................</b>
-                                    </h6>
-                                    <h6 class="col-5">
+                                <div class="mat">
+                                    <h6>Matric
+                                        Number: <b class="size-f" id="matric">........</b>
                                     </h6>
                                 </div>
-                                </h6>
-                                <div class="row">
-                                    <h6 class="col-5">
-                                        Email: <b class="size-f"
-                                            id="yemail">..................................................</b>
-                                    </h6>
-                                    <h6 class="col-3">
-                                        Sex: <b class="size-f" id="sex">.......................</b>
-                                    </h6>
-                                    <h6 class="col-4">
-                                    </h6>
-                                </div>
-                                <div class="row">
-                                    <h6 class="col-5">
-                                        Phone number: <b class="size-f" id="number">............................</b>
-                                    </h6>
-                                    <h6 class="col-5">
-                                        Semester: <b class="size-f" id="semester">........................</b>
-                                    </h6>
-                                    <h6 class="col-2">
-
-                                    </h6>
-
-
-                                </div>
-
                             </div>
 
                         </div>
 
-                        <div class="table-section mt-3 container">
+                        <div class="table-section custom-n container">
                             <table class="table">
                                 <thead>
                                     <tr>
@@ -168,12 +116,12 @@
                                             <p>CREDIT UNIT</p>
                                         </td>
                                         <td>
-                                            <p>REMARK</p>
+                                            <p>STATUS</p>
                                         </td>
                                     </tr>
                                 </thead>
                             </table>
-                            <div id="course-item" class=" course-item course-item-remove">
+                            <div id="course-item" class=" n-course-item course-item-remove">
                                 <input required class="input-text sn" type="text" name="seriall" placeholder="S/N"
                                     value="1" class="input-text">
                                 <input required class="input-text code" type="text" name="code" placeholder="Code"
@@ -232,7 +180,7 @@
                         </div>
 
                     </div>
-                    <div class="passport">
+                    <div class="n-passport">
                         <div class="p-box">
 
                             <img id="output_image" class="passport-image" \>
@@ -250,7 +198,7 @@
 <?php  require_once("includes/footer.php")?>
 
 <script src="js/darkMode/course-form-darkmode.js"></script>
-<script src="js/course-form.js"></script>
+<script src="js/nce_course-form.js"></script>
 
 </body>
 

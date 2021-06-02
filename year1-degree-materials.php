@@ -26,7 +26,7 @@
                     <div id="search--box" class="search-box">
                         <input type="search" name="" id="input" class="form-control" placeholder="Looking for?"
                             title="">
-                        <a href="#" class="btn btn-warning"><img class="mode-toggle" src="/assets/images/search.png" alt=""></a>
+                        <a href="#" class="btn btn-warning"><img class="mode-toggle" src="./assets/images/search.png" alt=""></a>
                     </div>
                 </div>
                 <div class="btn-contain">
@@ -187,7 +187,7 @@
 
 
 <?php  require_once ("includes/footer.php")?>
-<script src="js/department-darkmode.js"></script>
+<script src="js/darkmode/department-darkmode.js"></script>
 </body>
 </body>
 
