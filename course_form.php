@@ -185,6 +185,9 @@
                                 <input required class="input-text remark" type="text" name="remark" placeholder="Remark"
                                     class="input-text border">
                             </div>
+                            <div class="container total-unit">
+                            <span>Total Credit Unit <input required class="input-text code" type="text" name="Total credit" placeholder="Total credit unit"
+                                    class="input-text border"></span></div>
                             <button id="add-course" class="btn btn-success course-btn">Add another Course</button>
                             <button id="print-out" class="btn btn-warning course-btn">Print</button>
                         </div>

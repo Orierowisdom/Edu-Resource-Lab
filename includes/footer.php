@@ -40,9 +40,9 @@
                     <div class="footer-links mt-4">
                         <a href="">Terms of Use</a>
                         <a href="">Privacy Policy</a>
-                        <a href="course_form.php">Generate courseform</a>
+                        <a href="nce_course_form.php">NCE Courseform</a>
+                        <a href="course_form.php">DEGREE Courseform</a>
                         <a href="course-materials.php">Download course materials</a>
-                        <a href="">Marketplace</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
@@ -84,6 +84,7 @@
 <script src="js/jquery-1.7.1.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/nav.js"></script>
 
 
 

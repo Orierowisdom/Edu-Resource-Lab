@@ -7,7 +7,8 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                 aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span id="nav-toggler" class="navbar-toggler"><img src="./assets/images/toggle.png" alt=""></span>
+            <span id="nav-toggler2" class="navbar-toggler-disabled navbar-toggler "><img src="./assets/images/close-toggle.png" alt=""></span>
         </button>
 
 
@@ -20,7 +21,7 @@
                     <a class="nav-link active" aria-current="page" href="about.php">ABOUT</a>
                 </li>
                 <li class="nav-item course-form-link">
-                    <a class="nav-link active" aria-current="page" href="#">COURSE FORM</a>
+                    <a class="nav-link active" aria-current="page" href="#">COURSE FORM ></a>
                     <div id="main-bgg" class="course-form-link-sub nav-bg px-4">
                     <ul>
                         <li><a class="nav-link active" aria-current="page" href="nce_course_form.php">NCE COURSE FORM</a></li>

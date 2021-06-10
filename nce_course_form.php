@@ -133,6 +133,9 @@
                                 <input required class="input-text remark" type="text" name="remark" placeholder="Remark"
                                     class="input-text border">
                             </div>
+                            <div class="container total-unit">
+                            <span>Total Credit Unit <input required class="input-text code" type="text" name="Total credit" placeholder="Total credit unit"
+                                    class="input-text border"></span></div>
                             <button id="add-course" class="btn btn-success course-btn">Add another Course</button>
                             <button id="print-out" class="btn btn-warning course-btn">Print</button>
                         </div>
@@ -147,12 +150,12 @@
                                     <div class="col-6">
                                         <p>........................................................................
                                         </p>
-                                        <p class="signature-text">Name of Student, Sign / Date</p>
+                                        <p class="signature-text">Student's Signature & Date</p>
                                     </div>
                                     <div class="col-6">
                                         <p>........................................................................
                                         </p>
-                                        <p class="signature-text">Name of Level Advisor, Sign / Date</p>
+                                        <p class="signature-text">Course Advisor's Signature & Date</p>
                                     </div>
                                 </div>
                             </div>
@@ -162,20 +165,14 @@
                                     <div class="col-6">
                                         <p>........................................................................
                                         </p>
-                                        <p class="signature-text">Name / Sign of H.O.D / Date</p>
+                                        <p class="signature-text">HOD's Signature & Date</p>
                                     </div>
                                     <div class="col-6">
                                         <p>........................................................................
                                         </p>
-                                        <p class="signature-text">Name / Sign of D.D Programme / Date</p>
+                                        <p class="signature-text">Dean's Signature & Date</p>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="container t-size text-center">
-                                <p>Students are to make four (4) copies of the registration form to be submitted as
-                                    follows:
-                                    Admission - Department - Academic planning office &
-                                    Students copy.</p>
                             </div>
                         </div>
 

@@ -41,14 +41,22 @@
                 </div>
             </div>
 
-            <!-- Advert -->
-            <div class="horizontal-advert my-5 text-center">
-                <div class="container">
-                    <div class="ad-box">
-                        <p>Advertise here!</p>
-                    </div>
-                </div>
+             <!-- Advert -->
+    <div class="horizontal-advert my-5 text-center advert-big">
+       <a href="advert.php" target="_blank" rel="noopener noreferrer">
+            <div class="ad-box">
+                <img class="img-fluid" src="./assets/images/advert-space.png" alt="">
             </div>
+       </a>
+    </div>
+    <!-- Advert-sm -->
+    <div class="horizontal-advert my-5 text-center advert-sm">
+       <a href="advert.php" target="_blank" rel="noopener noreferrer">
+            <div class="ad-box">
+                <img class="img-fluid" src="./assets/images/advert-space-sm.png" alt="">
+            </div>
+       </a>
+    </div>
 
 
             <!-- degree academic selection============== -->
@@ -58,7 +66,7 @@
                 <div class="row text-center">
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xm-12">
                         <div class="container text-center select-contain">
-                            <a href="year1-download-materials.html">
+                            <a href="year1-download-materials.php">
                                 <div id="select--box" class="select-box d-select-shape">
                                     <p class="text-center">Agric <br> Department </p>
                                 </div>
